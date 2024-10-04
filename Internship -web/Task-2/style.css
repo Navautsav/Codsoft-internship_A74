@@ -1,0 +1,156 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    top:0;
+    z-index: 1;
+
+}
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu{
+    width: 65%;
+    display: flex;
+    justify-content:right;
+    list-style: none;
+}
+.menu li{
+    margin-left: 20px;
+}
+.menu li a{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.menu li a:hover{
+    color:red;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+.search form{
+    display: flex;
+    margin:0;
+}
+.search input{
+    padding: 10px;
+    border:1px solid #ddd;
+    outline:none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.search input:hover{
+    border:1px solid #72a0d4;
+}
+.search button{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size:19px;
+    cursor:pointer;
+}
+.search button:hover{
+    background-color: red;
+}
+
+.banner{
+    position: relative;
+    width:100%;
+    height: auto;
+}
+.banner img{
+    width:100%;
+}
+.banner .content{
+    position: absolute;
+    color: white;
+    left: 10%;
+    top:50%;
+    max-width: 550px;
+    z-index: 1;
+}
+
+.banner .content h2{
+    font-weight: 800;
+    font-size: 3em;
+    text-decoration: uppercase;
+    color: white;
+    margin-top: 15px;
+}
+.banner .content h4{
+    color: white;
+    font-weight: bolder;
+}
+.banner .content h4 span{
+    padding: 0 10px;
+    border-right: 1px solid rgb(255, 255, 255,0.5);
+}
+.banner .content h4 span:first-child{
+    padding-left: 0;
+}
+.banner .content h4 span:last-child{
+    padding-right: none;
+}
+.banner .content h4 span i{
+    background-color: red;
+    color: white;
+    padding: 0 8px;
+    display:inline-block;
+    font-size: normal;
+    border-radius: 2px;
+}
+.banner .content p{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: white;
+    margin :5px 0 20px;
+    font-weight: bolder;
+}
+.banner .content .buttons{
+    position: relative;
+}
+
+.banner .content .buttons a{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    background: rgb(233, 11, 70);
+    color: white;
+    padding: 9px 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0 0.5rem 1rem white;
+    border:0.1rem solid rgb(0, 0, 0,0.7)
+}
