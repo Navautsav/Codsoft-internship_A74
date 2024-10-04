@@ -84,9 +84,9 @@ nav{
 
 
 .full-screen-card {
-    height: 100vh; /* Full screen height */
+    height: 100vh; 
     display: flex;
-    align-items: center; /* Center vertically */
+    align-items: center; 
 }
 
 .image-container {
@@ -94,8 +94,8 @@ nav{
 }
 
 .rounded-circle {
-    width: 200px; /* Smaller size for the image */
-    height: 150px; /* Smaller size for the image */
+    width: 200px; 
+    height: 150px; 
 }
 
 .content-container {
@@ -104,20 +104,20 @@ nav{
 }
 
 .content-container h2 {
-    font-size: 36px; /* Larger title font size */
+    font-size: 36px; 
 }
 
 .content-container p {
-    font-size: 18px; /* Larger paragraph font size */
+    font-size: 18px; 
 }
 
 .card {
     margin-top: 20px;
-    transition: background-color 0.3s, color 0.3s; /* Space above the card */
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .card:hover{
-    background-color: #f81d54; /* Change background color to blue */
+    background-color: #f81d54; 
     color: white;
 }
 .card-body .row:hover{
@@ -128,32 +128,32 @@ nav{
     transition: background-color 0.3s, color 0.3s;
 }
 #skills:hover{
-    background-color: #f81d54; /* Change background color to blue */
+    background-color: #f81d54; 
     color: white;
 }
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center items */
-    margin-top: 20px; /* Space above the skills */
+    justify-content: center; 
+    margin-top: 20px; 
 }
 
 .skill-item {
     text-align: center;
-    margin: 15px; /* Space between skill items */
+    margin: 15px; 
 }
 
 .skill-item img {
-    width: 60px; /* Icon size */
-    height: 60px; /* Icon size */
+    width: 60px; 
+    height: 60px; 
 }
 
 .card-title {
-    font-size: 2rem; /* Larger title font size */
+    font-size: 2rem; 
 }
 
 .card-text {
-    font-size: 1.1rem; /* Slightly larger paragraph font size */
+    font-size: 1.1rem; 
 }
 
 
